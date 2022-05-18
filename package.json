@@ -1,0 +1,23 @@
+{
+  "name": "Sky_Eagle",
+  "version": "1.0.0",
+  "description": "A scrapper for bscscan explorer",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "@types/chromedriver": "^81.0.1",
+    "@types/selenium-webdriver": "^4.0.16",
+    "chromedriver": "^99.0.0",
+    "dotenv": "^14.3.2",
+    "ethers": "^5.5.3",
+    "selenium-webdriver": "^4.1.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "repository": "git@https://github.com/Githugutech/myohmy",
+  "author": "Pius Githugu <cehgithugu@gmail.com>"
+}
